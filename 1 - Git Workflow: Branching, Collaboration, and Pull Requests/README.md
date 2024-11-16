@@ -91,7 +91,7 @@ After creating the branch, I made changes to the HTML file (as part of the `feat
 
 ### 8. **Create a Pull Request**
 
-Once the branch was pushed, I created a pull request (PR) to merge my changes into the `main` branch.
+Once the branch was pushed, I created a pull request (PR) to merge my changes into the `master` branch.
 
 - I navigated to the **Pull Requests** tab in the repository on GitHub.
 - Clicked **New Pull Request** and selected `master` as the base branch and `feature_a` as the compare branch.
