@@ -8,6 +8,6 @@ Welcome to the `assignments` repository! This repository contains all assignment
 
 | **#** | **Assignment Title**                                  | **Folder**            | **Description**                                                                 |
 |-------|-------------------------------------------------------|-----------------------|---------------------------------------------------------------------------------|
-| 1     | Git Workflow: Branching, Collaboration, and Pull Requests | `session_3_assignment` | Covers Git basics: repository setup, branching, PR creation, and collaboration. |
+| 1     | Git Workflow: Branching, Collaboration, and Pull Requests | `1 - Git Workflow: Branching, Collaboration, and Pull Requests` | Covers Git basics: repository setup, branching, PR creation, and collaboration. |
 
 
