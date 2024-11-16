@@ -8,6 +8,6 @@ Welcome to the `assignments` repository! This repository contains all assignment
 
 | **#** | **Assignment Title**                                  | **Folder**            | **Description**                                                                 |
 |-------|-------------------------------------------------------|-----------------------|---------------------------------------------------------------------------------|
-| 1     | Git Workflow | `1 - Git Workflow: Branching, Collaboration, and Pull Requests` | Covers Git basics: SSH setup, branching, PR creation, and collaboration. | 
-
+| 1     | Git Workflow                                          | `1 - Git Workflow: Branching, Collaboration, and Pull Requests` | Covers Git basics: SSH setup, branching, PR creation, and collaboration. | 
+| 2     | Run Nginx Docker Container and Restart Service        | `2: Run Nginx Docker Container and Restart the Service` | Run an Nginx container, make it accessible through a browser, and restart the Nginx service. |
 
