@@ -15,7 +15,7 @@ To begin, I generated a new SSH key on my local machine to enable secure, passwo
     I pressed Enter to accept the default file location for the key (~/.ssh/id_rsa).
     I set a passphrase for the key for extra security (this step is optional).
 
-2. Add the SSH Key to GitHub
+### 2. Add the SSH Key to GitHub
 
 I added the SSH public key to my GitHub account so that I could authenticate securely when pushing to and pulling from repositories.
 
@@ -28,7 +28,7 @@ I added the SSH public key to my GitHub account so that I could authenticate sec
         Clicked New SSH key, gave it a title, and pasted the key into the field.
         I clicked Add SSH key to complete the process.
 
-3. Clone the Repository
+### 3. Clone the Repository
 
 I cloned the DEPI-DevOps-Assignments repository from GitHub to my local machine.
 
@@ -43,7 +43,7 @@ I navigated into the cloned repository:
 
     cd DEPI-DevOps-Assignments
 
-4. Create a New Branch
+### 4. Create a New Branch
 
 I created a new feature branch called feature_a to work on my changes.
 
@@ -51,26 +51,11 @@ I created a new feature branch called feature_a to work on my changes.
 
     git checkout -b feature_a
 
-5. Make Changes to the Files
+### 5. Make Changes to the Files
 
-After creating the branch, I made changes to the HTML file (as part of the feature_a task). Below is an example of the change I made:
+After creating the branch, I made changes to the HTML file (as part of the feature_a task).
 
-<!DOCTYPE html>
-<html lang="en">
-
-<head>
-  <meta charset="utf-8">
-  <title>SSH Assignment</title>
-</head>
-
-<body>
-  <h1>Page Title</h1>
-  <p>This is a paragraph edited as part of the feature_a task.</p>
-</body>
-
-</html>
-
-6. Stage and Commit Changes
+### 6. Stage and Commit Changes
 
 After making the changes, I staged and committed them to the feature_a branch.
 
@@ -90,7 +75,7 @@ With my changes committed locally, I pushed the feature_a branch to GitHub.
 
     git push origin feature_a
 
-8. Create a Pull Request
+### 8. Create a Pull Request
 
 Once the branch was pushed, I created a pull request (PR) to merge my changes into the main branch.
 
@@ -99,8 +84,10 @@ Once the branch was pushed, I created a pull request (PR) to merge my changes in
     I added a title and description explaining the changes I made.
     I also added a reviewer to approve the PR before merging.
     Finally, I clicked Create Pull Request.
+    
+---
 
-In this assignment, I followed the typical Git workflow to:
+### In this assignment, I followed the typical Git workflow to:
 
     Set up SSH authentication for secure communication with GitHub.
     Clone the repository to my local machine.
