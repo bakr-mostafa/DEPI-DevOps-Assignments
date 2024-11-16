@@ -1,6 +1,6 @@
 # Assignments Repository
 
-Welcome to the `assignments` repository! This repository contains all assignments and exercises related to our sessions. Each assignment is organized in its respective folder with clear instructions and solutions.
+Welcome to the `assignments` repository! This repository contains all assignments and exercises related to the DEPI DevOps sessions. Each assignment is organized in its respective folder with clear instructions and solutions.
 
 ---
 
