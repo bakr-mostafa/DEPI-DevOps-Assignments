@@ -44,54 +44,68 @@ To begin, I generated a new SSH key on my local machine to enable secure, passwo
 
 ---
 
-### 4. Create a New Branch
+### 4. **Create a New Branch**
 
-I created a new feature branch called feature_a to work on my changes.
+- created a new feature branch called `feature_a` to work on my changes.
+- used the following command to create and switch to the new branch:
+  
+  ```bash
+  git checkout -b feature_a
+  ```
 
-    I used the following command to create and switch to the new branch:
-
-    git checkout -b feature_a
-
-### 5. Make Changes to the Files
-
-After creating the branch, I made changes to the HTML file (as part of the feature_a task).
-
-### 6. Stage and Commit Changes
-
-After making the changes, I staged and committed them to the feature_a branch.
-
-    I staged the changes using the following command:
-
-git add .
-
-Then, I created a commit with the following message:
-
-    git commit -m "Updated index.html for feature_a""
-
-7. Push the Branch to the Remote Repository
-
-With my changes committed locally, I pushed the feature_a branch to GitHub.
-
-    I used the following command to push the branch:
-
-    git push origin feature_a
-
-### 8. Create a Pull Request
-
-Once the branch was pushed, I created a pull request (PR) to merge my changes into the main branch.
-
-    I navigated to the Pull Requests tab in the repository on GitHub.
-    Clicked New Pull Request and selected main as the base branch and feature_a as the compare branch.
-    I added a title and description explaining the changes I made.
-    I also added a reviewer to approve the PR before merging.
-    Finally, I clicked Create Pull Request.
-    
 ---
 
-### In this assignment, I followed the typical Git workflow to:
+### 5. **Make Changes to the Files**
 
-    Set up SSH authentication for secure communication with GitHub.
-    Clone the repository to my local machine.
-    Create a new feature branch and make changes.
-    Commit and push the changes to the remote repository.
-    Create a pull request and submit it for review.
+After creating the branch, I made changes to the HTML file (as part of the `feature_a` task).
+
+---
+
+### 6. **Stage and Commit Changes**
+
+- After making the changes, I staged and committed them to the `feature_a` branch.
+
+- staged the changes using the following command:
+  
+  ```bash
+  git add .
+  ```
+- Then, I created a commit with the following message:
+  
+  ```bash
+  git commit -m "Updated index.html for feature_a"
+  ```
+
+---
+
+### 7. **Push the Branch to the Remote Repository**
+
+- With my changes committed locally, I pushed the `feature_a` branch to GitHub.  
+- used the following command to push the branch:
+
+  ```bash
+  git push origin feature_a
+  ```
+
+---
+
+### 8. **Create a Pull Request**
+
+Once the branch was pushed, I created a pull request (PR) to merge my changes into the `main` branch.
+
+- I navigated to the **Pull Requests** tab in the repository on GitHub.
+- Clicked **New Pull Request** and selected `master` as the base branch and `feature_a` as the compare branch.
+- I added a title and description explaining the changes I made.
+- I also added a reviewer to approve the PR before merging.
+- Finally, I clicked **Create Pull Request**.
+
+---
+
+## Summary
+In this assignment, I followed the typical Git workflow to:
+
+- Set up SSH authentication for secure communication with GitHub.
+- Clone the repository to my local machine.
+- Create a new feature branch and make changes.
+- Commit and push the changes to the remote repository.
+- Create a pull request and submit it for review.
