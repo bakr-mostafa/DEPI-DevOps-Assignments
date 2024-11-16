@@ -11,37 +11,38 @@ To begin, I generated a new SSH key on my local machine to enable secure, passwo
   ```bash
   ssh-keygen -t rsa -b 4096 -C "your_email@example.com"
 
-    I used my email address associated with GitHub as the label for the key.
-    I pressed Enter to accept the default file location for the key (~/.ssh/id_rsa).
-    I set a passphrase for the key for extra security (this step is optional).
+- Used the email associated with my GitHub account as the label.
+- Accepted the default file location (`~/.ssh/id_rsa`) for the key.
+- Set an optional passphrase for additional security.
 
-### 2. Add the SSH Key to GitHub
+---
 
-I added the SSH public key to my GitHub account so that I could authenticate securely when pushing to and pulling from repositories.
+### **2. Add the SSH Key to GitHub**
 
-    I displayed the public key with this command:
+- I added the SSH public key to my GitHub account so that I could authenticate securely when pushing to and pulling from repositories.
 
-    cat ~/.ssh/id_rsa.pub
+  ```bash
+  cat ~/.ssh/id_rsa.pub
 
-    I copied the output (the SSH public key) and added it to my GitHub account:
-        I went to GitHub > Settings > SSH and GPG keys.
-        Clicked New SSH key, gave it a title, and pasted the key into the field.
-        I clicked Add SSH key to complete the process.
+- copied the output (the SSH public key) and added it to my GitHub account:
+- went to GitHub > Settings > SSH and GPG keys.
+- Added SSH key to complete the process.
 
-### 3. Clone the Repository
+---
 
-I cloned the DEPI-DevOps-Assignments repository from GitHub to my local machine.
+### **3. Clone the Repository**
 
-    From the repository on GitHub, I copied the SSH URL:
+- I cloned the DEPI-DevOps-Assignments repository from GitHub to my local machine.
+
+- From the repository on GitHub, I copied the SSH URL:
         git@github.com:bakr-mostafa/DEPI-DevOps-Assignments.git
 
-    Then, I ran the following command in my terminal to clone it:
+- Then, I ran the following command in my terminal to clone it:
+  
+   ```bash
+  git clone git@github.com:bakr-mostafa/DEPI-DevOps-Assignments.git
 
-git clone git@github.com:bakr-mostafa/DEPI-DevOps-Assignments.git
-
-I navigated into the cloned repository:
-
-    cd DEPI-DevOps-Assignments
+---
 
 ### 4. Create a New Branch
 
